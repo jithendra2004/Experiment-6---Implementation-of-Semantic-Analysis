@@ -3,8 +3,8 @@
 ## Aim : Construct a python program to read a text from a file.Identify the verbs from the text file and provide synonyms for all verbs using Natutal Language Processing 
 
 ## Algorithm:
-
-  1.Import the necessary libraries: nltk and wordnet.
+```
+ 1.Import the necessary libraries: nltk and wordnet.
  2.Define a function get_verbs(sentence) to identify verbs in a given sentence using part-of-speech tagging.
  3.Define a function get_synonyms(word) to get synonyms for a given word using the WordNet corpus.
  4.Define a function read_text_file(file_path) to read text from a file and return the content as a string.
@@ -20,9 +20,9 @@
     For each verb, call the get_synonyms() function to get its synonyms and store them in the synonyms_dict dictionary.
     Print the verbs and their synonyms.
 6.Execute the main program.
-
+```
 ## Program:
-
+```
 import nltk
 from nltk.corpus import wordnet
 
@@ -80,6 +80,7 @@ def main():
 if __name__ == '__main__':
     main()
 
+```
 
 ## Output:
 |Verb|Synonyms|
